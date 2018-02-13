@@ -42,6 +42,9 @@ public class FirebasePluginMessagingService extends FirebaseMessagingService {
 
         // TODO(developer): Handle FCM messages here.
         // Not getting messages here? See why this may be: https://goo.gl/39bRNJ
+        
+        if(true) return;
+        
         String title;
         String text;
         String id;
